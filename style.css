@@ -1,0 +1,22 @@
+body{
+    background-image: url('running.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 2px auto;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.one,.two,.three{
+    color: blanchedalmond;
+}
+.foo{
+    text-decoration: underline rgb(255, 57, 57);
+}
+button{
+    font-size: 36px;
+    color: brown;
+    border-radius: 25px;
+}
