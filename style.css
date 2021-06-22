@@ -20,3 +20,10 @@ button{
     color: brown;
     border-radius: 25px;
 }
+li{
+    color: blanchedalmond;
+    font-size: 36px;
+}
+.one {
+    text-overflow: initial;
+}

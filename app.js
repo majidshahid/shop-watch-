@@ -40,3 +40,12 @@ function reset(){
     clearInterval(a)
     document.getElementById("start").disabled=false;
 }
+function save (){
+
+    var list=document.getElementById("list");
+    var a=document.createElement("li");
+    var time=document.createTextNode(min+ ":"+sec +":"+ msec) ;
+    console.log(a.appendChild(time))
+ a.appendChild(time)  ;
+ list.appendChild(a) ;
+}
